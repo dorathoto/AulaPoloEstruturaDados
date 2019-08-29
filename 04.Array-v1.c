@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    float notas[5] = {7, 8, 9, 9, 5.2};
+    float notas[5] = {7, 8, 9, 9, 2.2};
     // declarando e inicializando o vetor notas
     /*
     Array sempre começa pelo índice 0,

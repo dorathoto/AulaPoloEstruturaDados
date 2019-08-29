@@ -9,9 +9,9 @@ int main(void)
     int i;
     for( i = 0 ; i <= 4; i++)
     {
-        printf("notas[%d] = %.1f\n",i, notas[i]);
+        printf("notas[%i] = %.1f\n",i, notas[i]);
     }
 
-    getch();
+
     return 0;
 }

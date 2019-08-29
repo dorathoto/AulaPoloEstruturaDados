@@ -1,7 +1,7 @@
-//#include <stdio.h>
 
 int main (void)
 {
-    printf("Ola alunos univesp!");
-    return(0);
+    int x=0;
+    printf("Ola alunos univesp! %i ", x);
+
 }

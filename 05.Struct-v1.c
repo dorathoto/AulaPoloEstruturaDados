@@ -11,9 +11,7 @@ int main(void)
 
 
 
-    Pessoa Joao, P1, P2;
-    Pessoa Povo[4]; //Conceito de Array
-
+    Pessoa Joao;
 
     Joao.Idade = 15;
     Joao.Peso = 60.5;
@@ -23,6 +21,10 @@ int main(void)
     printf("\n=====================================");
 
 
+
+
+
+    Pessoa Povo[4]; //Conceito de Array
     Povo[0].Idade = 23;
     Povo[0].Peso = 75.3;
     Povo[0].Altura = 1.89;
@@ -30,8 +32,8 @@ int main(void)
     printf("\nIdade: %d  Peso: %f Altura: %f\n", Povo[0].Idade, Povo[0].Peso, Povo[0].Altura);
     printf("\n");
 
-    Povo[1].Idade = 23;
-    Povo[1].Peso = 75.3 ;
+    Povo[1].Idade = 33;
+    Povo[1].Peso = 55.3 ;
     Povo[1].Altura = 1.89;
     printf("\nImprimindo pessoa.: %d", 1);
     printf("\nIdade: %d  Peso: %f Altura: %f\n", Povo[1].Idade, Povo[1].Peso, Povo[1].Altura);
